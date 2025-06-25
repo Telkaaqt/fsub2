@@ -61,10 +61,13 @@ USER_REPLY_TEXT = "❌jangan spam bang"
 
 START_MSG = os.environ.get("START_MESSAGE", "Hallo {mention}\n\nada apa bang😹")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hallo {mention}\n\n<b>Anda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat Film yang saya Bagikan
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE",     """Hallo {mention}
 
-Silakan Join Ke Channel & Group Terlebih Dahulu</b>")
+<b>Anda harus bergabung di Channel/Grup saya terlebih dahulu untuk melihat film yang saya bagikan...</b>
 
+<b><blockquote>Silakan Join Ke Channel & Group Terlebih Dahulu</b></blockquote>
+"""
+)
 
 
 
