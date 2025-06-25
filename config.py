@@ -11,8 +11,8 @@ API_HASH = os.environ.get("API_HASH", "ad753434fda6713ec7d840d1c60dcae9")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "1454860223"))
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "userbot")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://telkabot:telkabot@telka.ubmgyyg.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DB_NAME", "telkabot")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002447613053"))
