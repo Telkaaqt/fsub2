@@ -5,19 +5,19 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7971094918:AAFA47AQkv0jZrGB8T_stCt_jJxBx6uRzsU")
+API_ID = int(os.environ.get("API_ID", "28202735"))
+API_HASH = os.environ.get("API_HASH", "ad753434fda6713ec7d840d1c60dcae9")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "7566540245"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1454860223"))
 DB_URL = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "userbot")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002783872261"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002841696910"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002528277069"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002290424393"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002447613053"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
@@ -29,8 +29,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[6848088376]
-    for x in (os.environ.get("ADMINS", "6848088376").split()):
+    ADMINS=[1454860223]
+    for x in (os.environ.get("ADMINS", "1454860223").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -57,11 +57,13 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "❌Jangan spam bang😅"
+USER_REPLY_TEXT = "❌jangan spam bang"
 
-START_MSG = os.environ.get("START_MESSAGE", "Hah? {mention}\n\nEh kenapa bang😹")
+START_MSG = os.environ.get("START_MESSAGE", "Hallo {mention}\n\nada apa bang😹")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hi🙋🏿‍♂️ {mention}\n\n<b>Masuk cengha/gerups dulu bre😹\n\Jangan spam ye, masuk ya pukimaks</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hallo {mention}\n\n<b>Anda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat Film yang saya Bagikan
+
+Silakan Join Ke Channel & Group Terlebih Dahulu</b>")
 
 
 
