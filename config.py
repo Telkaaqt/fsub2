@@ -16,7 +16,7 @@ DB_NAME = os.environ.get("DB_NAME", "userbot")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002783872261"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002290424393"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002650209243"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002447613053"))
 
 
